@@ -9,6 +9,7 @@
 ufw_package: ufw
 # list of rules
 ufw_rules: [{ port: 22, rule: allow }]
+ufw_group_rules: []
 # list of profiles located in /etc/ufw/applications.d
 ufw_applications: []
 # /etc/defaut/ufw settings
